@@ -28,13 +28,23 @@ export default defineConfig({
     sidebar: {
       "/java_se/": [
         {
-          text: "Java SE",
+          text: "导论",
           items: [
             {
               text: "如何学习编程",
               link: "/java_se/how_to_learn_programming_language.md",
             },
+          ],
+        },
+        {
+          text: "Java SE",
+          items: [
             { text: "Java 语言简介", link: "/java_se/java_intro.md" },
+            { text: "Java 安装及环境配置", link: "/java_se/java_install.md" },
+            {
+              text: "Java 基本程序结构",
+              link: "/java_se/java_basic_program.md",
+            },
           ],
         },
       ],
