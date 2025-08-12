@@ -19,3 +19,28 @@ features:
   - title: Java EE
     details: 数据库JDBC、Servlet、JSP、SSM(Spring、SpringMVC、Mybatis) 等。
 ---
+
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #2365c4 30%, #ff1515);
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #2365c4 60%,
+    #ff1515 30%
+  );
+  --vp-home-hero-image-filter: blur(100px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+</style>

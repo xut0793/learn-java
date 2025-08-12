@@ -3,6 +3,7 @@ import markdownItTaskLists from "markdown-it-task-lists"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/learn-java/", // 配合 github pages 配置路径前缀
   title: "Learn Java",
   description: "Java 自学总结",
   lang: "zh-CN",
