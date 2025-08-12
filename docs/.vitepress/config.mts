@@ -17,7 +17,7 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/xut0793/learn-java.git" },
     ],
     footer: {
-      message: "PowerBy tao.xu",
+      message: "PowerBy xut0793",
       copyright: "Copyright © 2025-present",
     },
     nav: [
