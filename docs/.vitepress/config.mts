@@ -82,8 +82,12 @@ export default defineConfig({
           text: "流程控制",
           items: [
             {
-              text: "条件语句",
-              link: "/java_se/control_statement_condition.md",
+              text: "条件语句 if",
+              link: "/java_se/control_statement_condition_if.md",
+            },
+            {
+              text: "条件语句 switch",
+              link: "/java_se/control_statement_condition_switch.md",
             },
             { text: "循环语句", link: "/java_se/control_statement_loop.md" },
             { text: "跳转语句", link: "/java_se/control_statement_jump.md" },

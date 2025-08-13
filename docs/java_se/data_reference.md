@@ -46,3 +46,7 @@
 在程序中频繁多次使用同一个值，应该使用常量定义，避免使用魔法值（什么是魔法值），比如`100`、`3.14`等，应该使用常量来代替，比如`MAX_SIZE`、`PI`等。
 
 > 延伸知识点：变量作用域
+
+## 代码示例
+
+<<< ../../exercise/data_types/DataDeclaration.java#declaration
