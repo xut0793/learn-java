@@ -38,13 +38,58 @@ export default defineConfig({
           ],
         },
         {
-          text: "Java SE",
+          text: "Java 概要",
           items: [
             { text: "Java 语言简介", link: "/java_se/java_intro.md" },
             { text: "Java 安装及环境配置", link: "/java_se/java_install.md" },
             {
               text: "Java 基本程序结构",
               link: "/java_se/java_basic_program.md",
+            },
+          ],
+        },
+        {
+          text: "数据的表达",
+          items: [
+            { text: "数据类型", link: "/java_se/data_type.md" },
+            { text: "数据引用", link: "/java_se/data_reference.md" },
+            { text: "数据转换", link: "/java_se/data_conversion.md" },
+            { text: "数据运算", link: "/java_se/data_operation.md" },
+            {
+              text: "数据抽象（数据结构）",
+              link: "/java_se/data_structure.md",
+            },
+            {
+              text: "数据的真相：二进制",
+              items: [
+                {
+                  text: "整数",
+                  link: "/java_se/data_truth_about_int.md",
+                },
+                {
+                  text: "小数",
+                  link: "/java_se/data_truth_about_float.md",
+                },
+                {
+                  text: "字符",
+                  link: "/java_se/data_truth_about_char.md",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          text: "流程控制",
+          items: [
+            {
+              text: "条件语句",
+              link: "/java_se/control_statement_condition.md",
+            },
+            { text: "循环语句", link: "/java_se/control_statement_loop.md" },
+            { text: "跳转语句", link: "/java_se/control_statement_jump.md" },
+            {
+              text: "流程控制的真相",
+              link: "/java_se/control_statement_truth.md",
             },
           ],
         },
