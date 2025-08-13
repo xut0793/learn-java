@@ -13,15 +13,15 @@ java 学习总结
   - [x] Java 开发环境
   - [x] Java 基本程序结构
 - **数据的表达**
-  - [ ] 数据类型: boolean, char, byte, short, int, long, float, double
-  - [ ] 数据引用: 标识符，字面量，变量，常量
-  - [ ] 数据转换：隐式转换（自动类型转换）、显式转换（强制类型转换）、自动装箱和自动拆箱
-  - [ ] 数据运算：算术运算、关系运算、逻辑运算、位运算、成员运算、身份运算、运算符优先级、赋值运算符和复合赋值
+  - [x] 数据类型: boolean, char, byte, short, int, long, float, double
+  - [x] 数据引用: 标识符，字面量，变量，常量
+  - [x] 数据转换：隐式转换（自动类型转换）、显式转换（强制类型转换）、自动装箱和自动拆箱
+  - [x] 数据运算：算术运算、关系运算、逻辑运算、位运算、成员运算、身份运算、运算符优先级、赋值运算符和复合赋值
   - [ ] 数据抽象（数据结构）: 数组 Array, 集合 Collection, 映射 Map
 - **流程的表达**
-  - [ ] 顺序
-  - [ ] 分支：if, else, switch
-  - [ ] 循环：for, while, do-while
+  - [x] 顺序
+  - [x] 分支：if, else, switch
+  - [x] 循环：for, while, do-while
 - **异常**
   - [ ] 产生错误（报错）: throw throws
   - [ ] 捕获错误: try, catch, finally
