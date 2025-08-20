@@ -97,6 +97,35 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "面向对象编程",
+          items: [
+            {
+              text: "理解面向对象",
+              link: "/java_se/oop_index.md",
+            },
+            {
+              text: "类 Class",
+              link: "/java_se/oop_class.md",
+            },
+            {
+              text: "对象：引用类型",
+              link: "/java_se/oop_reference.md",
+            },
+            {
+              text: "构造器",
+              link: "/java_se/oop_constructor.md",
+            },
+            {
+              text: "方法",
+              link: "/java_se/oop_method.md",
+            },
+            {
+              text: "封装：访问修饰符",
+              link: "/java_se/oop_access_modifier.md",
+            },
+          ],
+        },
       ],
       "/java_ee/": [
         {
