@@ -117,12 +117,56 @@ export default defineConfig({
               link: "/java_se/oop_constructor.md",
             },
             {
+              text: "成员变量",
+              link: "/java_se/oop_field.md",
+            },
+            {
               text: "方法",
               link: "/java_se/oop_method.md",
             },
             {
-              text: "封装：访问修饰符",
-              link: "/java_se/oop_access_modifier.md",
+              text: "封装 Encapsulation",
+              link: "/java_se/oop_encapsulation.md",
+            },
+            {
+              text: "继承 Inheritance",
+              link: "/java_se/oop_inheritance.md",
+            },
+            {
+              text: "多态 Polymorphism",
+              link: "/java_se/oop_polymorphism.md",
+            },
+            {
+              text: "组合 Composition",
+              link: "/java_se/oop_composition.md",
+            },
+            {
+              text: "接口 Interface",
+              link: "/java_se/oop_interface.md",
+            },
+            {
+              text: "抽象类 Abstract",
+              link: "/java_se/oop_abstract.md",
+            },
+            {
+              text: "内部类 Inner Class",
+              link: "/java_se/oop_inner_class.md",
+            },
+            {
+              text: "泛型 Generic",
+              link: "/java_se/oop_generic.md",
+            },
+            {
+              text: "注解 Annotation",
+              link: "/java_se/oop_annotation.md",
+            },
+            {
+              text: "反射 Reflection",
+              link: "/java_se/oop_reflection.md",
+            },
+            {
+              text: "动态代理 Dynamic Proxy",
+              link: "/java_se/oop_dynamic_proxy.md",
             },
           ],
         },
