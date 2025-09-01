@@ -14,10 +14,12 @@ hero:
       text: 开始
       link: /java_se/index.md
 features:
-  - title: Java SE
-    details: 基础语法、数据类型、控制流程、面向对象、异常处理、IO 流、泛型、反射、注解等。
-  - title: Java EE
-    details: 数据库JDBC、Servlet、JSP、SSM(Spring、SpringMVC、Mybatis) 等。
+  - title: Java SE（Java Standard Edition）
+    details: 基础语法、数据类型、控制流程、面向对象、异常处理、IO 流、泛型、反射、注解、多线程、集合框架等。
+  - title: Java EE（Java Enterprise Edition）
+    details: Servlet、JDBC（Java DataBase Connectivity）、JSP（JavaServer Pages）、EJB（Enterprise JavaBeans）、JPA（Java Persistence API）、JMS（Java Message Service） 等。
+  - title: SSM（Spring、SpringMVC、Mybatis）
+    details: 企业级开发框架。
 ---
 
 <style>

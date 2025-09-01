@@ -16,7 +16,7 @@ class TestConstructor {
     // TestCodeBlock t2 = new TestCodeBlock("李四");
 
     // 测试构造器不能继承的代码
-    Apple apple = new Apple();
+    // Apple apple = new Apple();
   }
 }
 
@@ -86,12 +86,14 @@ class Fruit {
 
 class Apple extends Fruit {
   // 子类的无参构造器
-  public Apple() {
-    System.out.println("Apple 无参构造器");
-  }
+  // public Apple() {
+  // System.out.println("Apple 无参构造器");
+  // }
 
   // 子类的有参构造器
-  // public Apple(String name) {
-  // System.out.println("Apple 有参构造器，name: " + name);
-  // }
+  public Apple(String name) {
+    // 调用父类的有参构造器
+    super(name);
+    System.out.println("Apple 有参构造器，name: " + name);
+  }
 }

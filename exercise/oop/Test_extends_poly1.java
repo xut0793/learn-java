@@ -16,9 +16,9 @@ public class Test_extends_poly1 {
      * 如果找到匹配方法，则执行该方法
      * 如果没有找到匹配方法，则编译错误
      */
-    p2.show(); // 编译错误：Person 类没有 show() 方法
+    // p2.show(); // 编译错误：Person 类没有 show() 方法
     // 解决方法：将 p2 强制转换为 Man 类
-    // ((Man) p2).show(); // 运行时多态：调用的是 Man 类的 show() 方法
+    ((Man) p2).show(); // 运行时多态：调用的是 Man 类的 show() 方法
   }
 }
 

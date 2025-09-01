@@ -141,16 +141,20 @@ export default defineConfig({
               link: "/java_se/oop_composition.md",
             },
             {
-              text: "接口 Interface",
-              link: "/java_se/oop_interface.md",
-            },
-            {
               text: "抽象类 Abstract",
               link: "/java_se/oop_abstract.md",
             },
             {
+              text: "接口 Interface",
+              link: "/java_se/oop_interface.md",
+            },
+            {
               text: "内部类 Inner Class",
               link: "/java_se/oop_inner_class.md",
+            },
+            {
+              text: "内部接口 Inner Interface",
+              link: "/java_se/oop_inner_interface.md",
             },
             {
               text: "泛型 Generic",
