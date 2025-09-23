@@ -161,16 +161,45 @@ export default defineConfig({
               link: "/java_se/oop_generic.md",
             },
             {
-              text: "注解 Annotation",
-              link: "/java_se/oop_annotation.md",
-            },
-            {
               text: "反射 Reflection",
               link: "/java_se/oop_reflection.md",
             },
             {
-              text: "动态代理 Dynamic Proxy",
-              link: "/java_se/oop_dynamic_proxy.md",
+              text: "代理 Proxy",
+              link: "/java_se/oop_proxy.md",
+            },
+            {
+              text: "注解 Annotation",
+              link: "/java_se/oop_annotation.md",
+            },
+          ],
+        },
+        {
+          text: "工程化",
+          items: [
+            {
+              text: "包 package",
+              link: "/java_se/project_package.md",
+            },
+            {
+              text: "jar",
+              link: "/java_se/project_jar.md",
+            },
+            {
+              text: "类路径 Classpath",
+              link: "/java_se/project_classpath.md",
+            },
+            {
+              text: "模块 module",
+              link: "/java_se/project_module.md",
+            },
+            {
+              text: "Maven",
+              link: "/java_se/project_maven.md",
+            },
+            {
+              text: "Gradle",
+              link: "/java_se/project_gradle.md",
             },
           ],
         },
