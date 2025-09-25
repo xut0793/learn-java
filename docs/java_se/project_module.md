@@ -8,7 +8,7 @@ Java 9 引入了模块系统（Java Module System，简称 Jigsaw），这是 Ja
 
 官方的定义是 A uniquely named, reusable group of related packages, as well as resources (such as images and XML files) and a module descriptor。翻译为：一个唯一命名的、可重复使用的相关包的集合，以及资源（如图像和 XML 文件）和模块描述符。
 
-![module_vs_package](../public/images/module_vs_package.awebp)
+![module_vs_package](../public/images/module_vs_package.webp)
 
 从图上可以看出，一个模块还是一个 jar 文件，但相比于传统的 jar 文件，模块的根目录下多了一个 Module Descriptor 文件（module-info.class）。也就是说，任意一个 jar 文件，只要加上一个合法的 module descriptor，就可以升级为一个模块。
 
