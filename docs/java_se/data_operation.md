@@ -47,7 +47,7 @@ double b = 3.14;
 - 取模运算符只能用于整数类型。
 - 浮点数运算结果是不精确的，因为某些小数是无法二进制精确表示的，比如 0.1。就像日常十进制也无法表示 1/3 的精确结果。
 
-<<< ../../exercise/data_types/DataOperation.java#arithmeticOperators
+<<< ../../learnjava/src/com/learnjava/datatype/OperateType.java#arithmeticOperators
 
 ## 比较运算
 
@@ -68,7 +68,7 @@ double b = 3.14;
 - 比较运算符只能用于数值类型和字符串类型。
 - 等于不等于运算对于基本类型是值比较，对于引用类型是引用比较（这点在面向对象里讲解）。
 
-<<< ../../exercise/data_types/DataOperation.java#comparisonOperators
+<<< ../../learnjava/src/com/learnjava/datatype/OperateType.java#comparisonOperators
 
 ## 逻辑运算
 
@@ -85,7 +85,7 @@ double b = 3.14;
 - 逻辑与运算符 `&&` 的短路运算，当第一个操作数为 false 时，不会计算第二个操作数，直接返回 false，比如 `boolean b = false && a++ > 0;` 不会执行 `a++ > 0` 运算。
 - 逻辑或运算符 `\|\|` 的短路运算，当第一个操作数为 true 时，不会计算第二个操作数，直接返回 true，比如 `boolean b = true \|\| (a = 10);` 不会执行 `a = 10;`。
 
-<<< ../../exercise/data_types/DataOperation.java#logicalOperators
+<<< ../../learnjava/src/com/learnjava/datatype/OperateType.java#logicalOperators
 
 ## 条件运算符
 
@@ -100,7 +100,7 @@ double b = 3.14;
 - 条件运算符的优先级低于算术运算符，低于比较运算符，高于赋值运算符。
 - 条件运算符的三个操作数必须是布尔值和两个值，第一个操作数为 true 时返回第二个操作数，为 false 时返回第三个操作数。
 
-<<< ../../exercise/data_types/DataOperation.java#ternaryOperators
+<<< ../../learnjava/src/com/learnjava/datatype/OperateType.java#ternaryOperators
 
 ## 位运算
 
@@ -116,7 +116,7 @@ double b = 3.14;
 | `>>`   | 右移，用于将整数的二进制位向右移动指定的位数                 | `int c = 5 >> 2; // 结果为 1`            |
 | `>>>`  | 无符号右移，用于将整数的二进制位向右移动指定的位数，左侧补 0 | `int c = -5 >>> 2; // 结果为 1073741821` |
 
-<<< ../../exercise/data_types/DataOperation.java#bitwiseOperators
+<<< ../../learnjava/src/com/learnjava/datatype/OperateType.java#bitwiseOperators
 
 ## 复合赋值运算符
 
@@ -139,7 +139,7 @@ double b = 3.14;
 | `^=`   | 按位异或赋值运算符，用于将一个值与变量进行按位异或运算，然后将结果赋给变量                   | `int a = 10;`<br>`a ^= 3; // 结果为 8`                                                                                                 |
 | `~=`   | 按位非赋值运算符，用于将一个值的二进制位取反，然后将结果赋给变量                             | `int a = 10;`<br>`a ~= 3; // 结果为 -11`                                                                                               |
 
-<<< ../../exercise/data_types/DataOperation.java#compoundOperators
+<<< ../../learnjava/src/com/learnjava/datatype/OperateType.java#compoundOperators
 
 ## 运算符优先级
 
@@ -163,4 +163,4 @@ double b = 3.14;
 14. 条件运算符 `? :`
 15. 赋值运算符 `=`、`+=`、`-=`、`*=`、`/=`、`%=`
 
-<<< ../../exercise/data_types/DataOperation.java#operatorPriority
+<<< ../../learnjava/src/com/learnjava/datatype/OperateType.java#operatorPriority

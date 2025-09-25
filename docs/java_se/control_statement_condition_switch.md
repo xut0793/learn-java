@@ -12,7 +12,7 @@ switch 语句有三种使用方式：
 
 switch 基础形式的语法如下：
 
-<<< ../../exercise/control_statement/ConditionStatementSwitch.java#switchDefault
+<<< ../../learnjava/src/com/learnjava/statement/ConditionStatement.java#switchDefault
 
 ### switch 语句执行流程
 
@@ -48,7 +48,7 @@ switch 表达式语句支持的参数类型：
 
 如果某个 case 子句中不存在 break 语句，将发生穿透现象，继续执行下一个 case 语句，直到遇到 break 语句，或 switch 语句结束。
 
-<<< ../../exercise/control_statement/ConditionStatementSwitch.java#switchPenetrate
+<<< ../../learnjava/src/com/learnjava/statement/ConditionStatement.java#switchPenetrate
 
 ## switch 箭头 -> 形式
 
@@ -58,7 +58,7 @@ switch 表达式语句支持的参数类型：
 
 基础语法：
 
-<<< ../../exercise/control_statement/ConditionStatementSwitch.java#switchArrow
+<<< ../../learnjava/src/com/learnjava/statement/ConditionStatement.java#switchArrow
 
 `->` 箭头相当于不用输入 break 语句，执行完当前 case 语句，自动跳出 switch 语句块。
 
@@ -66,7 +66,7 @@ switch 表达式语句支持的参数类型：
 
 另外，还可以多个 case 语句进行合并，用逗号分隔，产生类似 switch 基本类型中 穿透现象的效果。
 
-<<< ../../exercise/control_statement/ConditionStatementSwitch.java#switchArrowMerge
+<<< ../../learnjava/src/com/learnjava/statement/ConditionStatement.java#switchArrowMerge
 
 ### switch 箭头 -> 形式的限制
 
@@ -82,14 +82,14 @@ switch 表达式语句支持的参数类型：
 
 `yield` 与默认 switch 形式结合使用，基本形式如下：
 
-<<< ../../exercise/control_statement/ConditionStatementSwitch.java#switchYieldDefault
+<<< ../../learnjava/src/com/learnjava/statement/ConditionStatement.java#switchYieldDefault
 
 `yield` 与箭头形式结合使用，基本形式如下：
 
-<<< ../../exercise/control_statement/ConditionStatementSwitch.java#switchYieldArrow
+<<< ../../learnjava/src/com/learnjava/statement/ConditionStatement.java#switchYieldArrow
 
 `yield` 与箭头形式结合使用时，case 可以使用语句块，但是语句块中必须有 yield 语句，用于返回值。
 
-<<< ../../exercise/control_statement/ConditionStatementSwitch.java#switchYieldArrowBlock
+<<< ../../learnjava/src/com/learnjava/statement/ConditionStatement.java#switchYieldArrowBlock
 
 注意这里 switch 作为表达式语句，未尾必须要加冒号。

@@ -49,4 +49,4 @@
 
 ## 代码示例
 
-<<< ../../exercise/data_types/DataDeclaration.java#declaration
+<<< ../../learnjava/src/com/learnjava/datatype/DeclarationType.java

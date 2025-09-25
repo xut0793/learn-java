@@ -53,4 +53,4 @@ if (条件) 语句;
 
 ## 代码示例
 
-<<< ../../exercise/control_statement/ConditionStatementIfElse.java#conditionStatement
+<<< ../../learnjava/src/com/learnjava/statement/ConditionStatement.java#ifElse

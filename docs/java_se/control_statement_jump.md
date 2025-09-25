@@ -1,4 +1,4 @@
-# 循环控制语句
+# 跳转语句
 
 在循环的时候，会以循环条件作为是否结束的依据，但有时可能会需要根据别的条件提前结束循环或跳过一些代码，这时可以使用`break`或`continue`关键字对循环进行控制。
 
@@ -8,13 +8,13 @@
 
 `continue`关键字可以用于跳过循环体中剩余的代码，直接进入下一次循环。
 
-<<< ../../exercise/control_statement/JumpStatement.java#continue
+<<< ../../learnjava/src/com/learnjava/statement/JumpStatement.java#continue
 
 ## break
 
 `break`关键字可以用于结束循环，跳出循环体。
 
-<<< ../../exercise/control_statement/JumpStatement.java#break
+<<< ../../learnjava/src/com/learnjava/statement/JumpStatement.java#break
 
 单个 `break` 语句用于跳出当前层的循环，如果是嵌套循环，需要逐层跳出。
 
@@ -87,4 +87,4 @@ return 语句用于从方法中返回一个值，并结束方法的执行。
 
 通常循环的逻辑是定义在方法中执行的，如果需要在循环中提前结束方法的执行，可以使用 return 语句。
 
-<<< ../../exercise/control_statement/JumpStatement.java#return
+<<< ../../learnjava/src/com/learnjava/statement/JumpStatement.java#return

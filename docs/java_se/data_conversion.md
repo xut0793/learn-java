@@ -15,7 +15,7 @@
 
 隐式转换的核心原则是「安全转换」—— 确保转换后的数据不会丢失或溢出，编译器会自动完成这类转换。
 
-<<< ../../exercise/data_types/DataCase.java#implicitCast
+<<< ../../learnjava/src/com/learnjava/datatype/CastType.java#implicitCast
 
 ## 强制类型转换，也叫显式类型转换
 
@@ -23,6 +23,6 @@
 - 强制类型转换的语法：`(目标数据类型) 变量名`
 - 注意事项：容量大的类型强制转换为容量小的类型，会丢失数据。
 
-<<< ../../exercise/data_types/DataCase.java#explicitCast
+<<< ../../learnjava/src/com/learnjava/datatype/CastType.java#explicitCast
 
 > 这里主要描述基础类型（隐式转换和显式转换），对于基本类型的装箱和拆箱，以及引用类型的查看、判断、向上转型、向下转型等概念在面向对象章节讲解。
