@@ -7,7 +7,7 @@
 1. 使用文本文件创建一个名为 `HelloWorld.java` 的文件。
 2. 在 `HelloWorld.java` 文件中输入以下代码：
 
-<<< ../../exercise/hello_world/HelloWorld.java
+<<< ../../learnjava/src/com/learnjava/hello/HelloWorld.java
 
 1. 编译 Java 程序: 打开命令行工具（如 Windows 下的 cmd 或 PowerShell，Mac 下的终端），切换到 `HelloWorld.java` 文件所在的目录，输入以下命令编译程序：
    ```shell

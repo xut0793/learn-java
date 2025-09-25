@@ -175,23 +175,6 @@ public class Point {
 - 类：使用 `final` 关键字修饰的类，不能被继承。
 - 方法：使用 `final` 关键字修饰的方法，不能被重写。
 
-## 代码示例：图形类的继承体系
-
-<<< ../../exercise/oop/ShapeInheritance.java#ShapeManager
-
-执行
-
-<<< ../../exercise/oop/ShapeInheritance.java#execute
-
-执行结果
-
-```
-Drawing a circle at Point(4, 4)with radius 2, using color: black
-Drawing a line from Point(2, 3) to Point(2, 3), using color: green
-Drawing a line from Point(1, 2) to Point(1, 2), using color: red
-Drawing a end arrow
-```
-
 ## 继承的缺点
 
 > 摘自 《Java 编程的逻辑》 4.4

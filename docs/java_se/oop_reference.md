@@ -54,6 +54,6 @@ Java 中的对象都是存储在堆中的。对象的创建和销毁都是由 Ja
 
 也基本类型相对，对象也被称为引用类型。因为一个声明一个对象变量，这个变量实际的值是对象内容的引用，它指向堆内存地址。
 
-<<< ../../exercise/oop/ReferenceType.java
+<<< ../../learnjava/src/com/learnjava/oop/object/ReferenceType.java
 
 ![object_reference_storage.png](../public/images/object_reference_storage.png)

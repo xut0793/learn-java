@@ -203,8 +203,6 @@ if (b instanceof Child) {
 
 下面通过一个例子，来理解继承和多态的实现原理，也可以解释静态绑定和动态绑定的原理。
 
-<<< ../../exercise/oop/TestInheritance.java
-
 ## 1. 类的加载过程
 
 在 Java 中，所谓类的加载是指将类的相关信息加载到内存。Java 类的加载过程中又细分为：
