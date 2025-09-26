@@ -37,20 +37,20 @@ Java SE（Java Standard Edition）是 Java 技术的基础，提供了开发和�
   - [x] 反射
   - [x] 注解
   - [x] 代理
+- **异常**
+  - [x] 产生错误（报错）: throw throws
+  - [x] 捕获错误: try-catch-finally try-with-resources
+  - [x] 日志 JUL: java.util.logging
+  - [x] 排查错误（调试）：JDB（java debugger）
+  - [x] 预防错误（测试）: JUnit
 - **工程化**
   - [x] 包 package / import
   - [x] jar
   - [x] 类路径 classpath
   - [ ] 模块 module
-  - [ ] 文档：注释、规范、工具
+  - [x] 文档：注释、工具 javadoc
   - [ ] maven
   - [ ] gradle
-- **异常**
-  - [ ] 产生错误（报错）: throw throws
-  - [ ] 捕获错误: try, catch, finally
-  - [ ] 记录错误（日志）：log4j、logback
-  - [ ] 排查错误（调试）: Debugger
-  - [ ] 预防错误（测试）: JUnit、TestNG
 - **内置类**
   - [ ] 基本类型的包装类，自动装箱和拆箱
   - [ ] 字符串
@@ -67,7 +67,6 @@ Java SE（Java Standard Edition）是 Java 技术的基础，提供了开发和�
   - [ ] 函数式接口
   - [ ] Lambda 表达式
   - [ ] 方法引用
-  - [ ] 流 API
 - **I/O 操作**
   - [ ] 文件操作
   - [ ] 流操作

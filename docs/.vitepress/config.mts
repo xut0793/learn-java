@@ -18,7 +18,7 @@ export default defineConfig({
     ],
     footer: {
       message: "PowerBy xut0793",
-      copyright: "Copyright © 2025-present",
+      copyright: "Copyright ©  2025年7月30日18:32:16-present",
     },
     nav: [
       { text: "Home", link: "/" },
@@ -175,6 +175,27 @@ export default defineConfig({
           ],
         },
         {
+          text: "异常",
+          items: [
+            {
+              text: "异常：抛出、捕获、处理",
+              link: "/java_se/exception.md",
+            },
+            {
+              text: "日志：记录错误",
+              link: "/java_se/exception_log.md",
+            },
+            {
+              text: "调试：排查错误",
+              link: "/java_se/exception_debug.md",
+            },
+            {
+              text: "测试：预防错误",
+              link: "/java_se/exception_test.md",
+            },
+          ],
+        },
+        {
           text: "工程化",
           items: [
             {
@@ -194,12 +215,66 @@ export default defineConfig({
               link: "/java_se/project_module.md",
             },
             {
+              text: "文档 Javadoc",
+              link: "/java_se/project_javadoc.md",
+            },
+            {
               text: "Maven",
               link: "/java_se/project_maven.md",
             },
             {
               text: "Gradle",
               link: "/java_se/project_gradle.md",
+            },
+          ],
+        },
+        {
+          text: "内置类",
+          items: [
+            {
+              text: "包装类",
+              link: "/java_se/builtin_class_wrapper.md",
+            },
+            {
+              text: "String 字符串",
+              link: "/java_se/builtin_string.md",
+            },
+            {
+              text: "Array 数组",
+              link: "/java_se/builtin_array.md",
+            },
+            {
+              text: "Enum 枚举",
+              link: "/java_se/builtin_enum.md",
+            },
+            {
+              text: "Record 记录",
+              link: "/java_se/builtin_record.md",
+            },
+            {
+              text: "Sealed Classes 密封类",
+              link: "/java_se/builtin_sealed_classes.md",
+            },
+            {
+              text: "Collection 集合",
+              link: "/java_se/builtin_collection.md",
+            },
+            // 工具类
+            {
+              text: "Date & Time 日期时间",
+              link: "/java_se/builtin_date_time.md",
+            },
+            {
+              text: "Math 数学",
+              link: "/java_se/builtin_math.md",
+            },
+            {
+              text: "Random 随机数",
+              link: "/java_se/builtin_random.md",
+            },
+            {
+              text: "Regexp 正则表达式",
+              link: "/java_se/builtin_regexp.md",
             },
           ],
         },

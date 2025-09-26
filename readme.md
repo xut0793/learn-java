@@ -23,8 +23,9 @@ java 学习总结
   - [x] 分支：if, else, switch
   - [x] 循环：for, while, do-while
 - **异常**
-  - [ ] 产生错误（报错）: throw throws
-  - [ ] 捕获错误: try, catch, finally
+  - [x] 产生错误（报错）: throw throws
+  - [x] 捕获错误: try-catch-finally try-with-resources
+  - [x] 日志 JUL: java.util.logging
   - [ ] 排查错误（调试）:
   - [ ] 预防错误（测试）:
 - **面向对象**
