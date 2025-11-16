@@ -174,6 +174,78 @@ export default defineConfig({
             },
           ],
         },
+
+        {
+          text: "内置类",
+          items: [
+            {
+              text: "Object 基类",
+              link: "/java_se/builtin_object.md",
+            },
+            {
+              text: "包装类",
+              link: "/java_se/builtin_class_wrapper.md",
+            },
+            {
+              text: "String 字符串",
+              link: "/java_se/builtin_string.md",
+            },
+            {
+              text: "Regexp 正则表达式",
+              link: "/java_se/builtin_regexp.md",
+            },
+            {
+              text: "Array 数组",
+              link: "/java_se/builtin_array.md",
+            },
+            {
+              text: "Enum 枚举",
+              link: "/java_se/builtin_enum.md",
+            },
+            {
+              text: "Record 记录",
+              link: "/java_se/builtin_record.md",
+            },
+            {
+              text: "Sealed Classes 密封类",
+              link: "/java_se/builtin_sealed_classes.md",
+            },
+            // 工具类
+            {
+              text: "Date & Time 日期时间",
+              link: "/java_se/builtin_date_time.md",
+            },
+            {
+              text: "Math 数学",
+              link: "/java_se/builtin_math.md",
+            },
+            {
+              text: "Random 随机数",
+              link: "/java_se/builtin_random.md",
+            },
+          ],
+        },
+        {
+          text: "集合 Collection",
+          items: [
+            {
+              text: "集合接口",
+              link: "/java_se/builtin_collection_interface.md",
+            },
+            {
+              text: "列表 List",
+              link: "/java_se/builtin_collection_list.md",
+            },
+            {
+              text: "集合 Set",
+              link: "/java_se/builtin_collection_set.md",
+            },
+            {
+              text: "映射 Map",
+              link: "/java_se/builtin_collection_map.md",
+            },
+          ],
+        },
         {
           text: "异常",
           items: [
@@ -225,56 +297,6 @@ export default defineConfig({
             {
               text: "Gradle",
               link: "/java_se/project_gradle.md",
-            },
-          ],
-        },
-        {
-          text: "内置类",
-          items: [
-            {
-              text: "包装类",
-              link: "/java_se/builtin_class_wrapper.md",
-            },
-            {
-              text: "String 字符串",
-              link: "/java_se/builtin_string.md",
-            },
-            {
-              text: "Array 数组",
-              link: "/java_se/builtin_array.md",
-            },
-            {
-              text: "Enum 枚举",
-              link: "/java_se/builtin_enum.md",
-            },
-            {
-              text: "Record 记录",
-              link: "/java_se/builtin_record.md",
-            },
-            {
-              text: "Sealed Classes 密封类",
-              link: "/java_se/builtin_sealed_classes.md",
-            },
-            {
-              text: "Collection 集合",
-              link: "/java_se/builtin_collection.md",
-            },
-            // 工具类
-            {
-              text: "Date & Time 日期时间",
-              link: "/java_se/builtin_date_time.md",
-            },
-            {
-              text: "Math 数学",
-              link: "/java_se/builtin_math.md",
-            },
-            {
-              text: "Random 随机数",
-              link: "/java_se/builtin_random.md",
-            },
-            {
-              text: "Regexp 正则表达式",
-              link: "/java_se/builtin_regexp.md",
             },
           ],
         },

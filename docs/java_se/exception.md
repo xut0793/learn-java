@@ -199,52 +199,7 @@ try {
 
 示例代码：
 
-```java
-public class FinallyExample {
-    /**
-     * 这个函数的返回值是0，而不是2。finally 语句中不能改变返回值
-     * 实际执行过程是：在执行到try内的return ret；语句前，会先将返回值ret保存在一个临时变量中，然后才执行finally语句，最后try再返回那个临时变量，finally中对ret的修改不会被返回。
-     */
-    public static int finallyModifyVariable () {
-        int result = 0;
-        try {
-            return result;
-        } finally {
-            result = 2;
-        }
-    }
-
-    /**
-     * 这个函数的返回值是2，而不是0。
-     * finally中有return 会覆盖try和catch内的返回值。
-     */
-    public static int finallyReturn () {
-        int result = 0;
-        try {
-            return result;
-        } finally {
-            return 2;
-        }
-    }
-
-    /**
-     * 这个函数的返回值是2，而不是抛出异常。
-     * 5/0 会触发ArithmeticException，但是finally中抛出了异常会覆盖try和catch内的异常，新异常向上传递。
-     */
-    public static int finallyThrow () {
-        int result = 0;
-        try {
-            int a = 5/0;
-            return result;
-        } catch (ArithmeticException e) {
-            return 1;
-        } finally {
-            throw new RunningException("finally throw exception");
-            // return 2;
-        }
-    }
-}
-```
+<<< ../../learnjava/src/com/learnjava/exception/FinallyExample.java
 
 ## try-with-resources
 
