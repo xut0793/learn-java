@@ -18,6 +18,12 @@ Java SE（Java Standard Edition）是 Java 技术的基础，提供了开发和�
   - [x] 顺序
   - [x] 分支：if, else, switch
   - [x] 循环：for, while, do-while
+- **异常**
+  - [x] 产生错误（报错）: throw throws
+  - [x] 捕获错误: try-catch-finally try-with-resources
+  - [x] 日志 JUL: java.util.logging
+  - [x] 排查错误（调试）：JDB（java debugger）
+  - [x] 预防错误（测试）: JUnit
 - **面向对象**
   - [x] 理解面向对象
   - [x] 类
@@ -46,30 +52,29 @@ Java SE（Java Standard Edition）是 Java 技术的基础，提供了开发和�
   - [x] 枚举 Enum
   - [x] 记录 Record
   - [x] 密封类 Sealed Class
-  - [ ] 日期时间 LocalDate LocalTime LocalDateTime Instant ZonedDateTime
-  - [ ] 数学 Math
-  - [ ] 随机数 Random
+  - [x] 日期时间 LocalDate LocalTime LocalDateTime Instant ZonedDateTime
+  - [x] 数学 Math
+  - [x] 随机数 Random
 - **集合 Collection**
   - [ ] 集合接口
   - [ ] 列表 List
   - [ ] 集合 Set
   - [ ] 映射 Map
-- **异常**
-  - [x] 产生错误（报错）: throw throws
-  - [x] 捕获错误: try-catch-finally try-with-resources
-  - [x] 日志 JUL: java.util.logging
-  - [x] 排查错误（调试）：JDB（java debugger）
-  - [x] 预防错误（测试）: JUnit
-- **函数式编程**
-  - [ ] 函数式接口
-  - [ ] Lambda 表达式
-  - [ ] 方法引用
+- **I/O 操作**
+  - [ ] 输入输出流
+  - [ ] 流操作
+  - [ ] 文件
+  - [ ] 序列化和反序列化
 - **并发编程**
   - [ ] 线程
   - [ ] 锁
   - [ ] 原子操作
   - [ ] 并发容器
   - [ ] 线程池
+- **函数式编程**
+  - [ ] 函数式接口
+  - [ ] Lambda 表达式
+  - [ ] 方法引用
 - **工程化**
   - [x] 包 package / import
   - [x] jar
@@ -78,11 +83,6 @@ Java SE（Java Standard Edition）是 Java 技术的基础，提供了开发和�
   - [x] 文档：注释、工具 javadoc
   - [ ] maven
   - [ ] gradle
-- **I/O 操作**
-  - [ ] 输入输出流
-  - [ ] 流操作
-  - [ ] 文件
-  - [ ] 序列化和反序列化
 - **网络编程**
   - [ ] TCP
   - [ ] UDP
@@ -114,7 +114,6 @@ Java SE（Java Standard Edition）是 Java 技术的基础，提供了开发和�
   - [ ] 分治算法
   - [ ] 回溯算法
 - **设计模式**
-  - [ ] Java 设计模式
   - 创建型
     - [ ] 工厂方法
     - [ ] 抽象工厂
