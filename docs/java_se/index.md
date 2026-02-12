@@ -57,6 +57,7 @@ Java SE（Java Standard Edition）是 Java 技术的基础，提供了开发和�
   - [x] 随机数 Random
 - **集合 Collection**
   - [ ] 集合接口
+  - [ ] 迭代器 Iterator
   - [ ] 列表 List
   - [ ] 集合 Set
   - [ ] 映射 Map

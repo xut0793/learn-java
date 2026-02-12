@@ -229,20 +229,28 @@ export default defineConfig({
           text: "集合 Collection",
           items: [
             {
-              text: "集合接口",
-              link: "/java_se/builtin_collection_interface.md",
+              text: "集合",
+              link: "/java_se/collection_index.md",
+            },
+            {
+              text: "迭代器 Iterator",
+              link: "/java_se/collection_iterator.md",
             },
             {
               text: "列表 List",
-              link: "/java_se/builtin_collection_list.md",
+              link: "/java_se/collection_list.md",
             },
             {
               text: "集合 Set",
-              link: "/java_se/builtin_collection_set.md",
+              link: "/java_se/collection_set.md",
+            },
+            {
+              text: "队列 Queue",
+              link: "/java_se/collection_queue.md",
             },
             {
               text: "映射 Map",
-              link: "/java_se/builtin_collection_map.md",
+              link: "/java_se/collection_map.md",
             },
           ],
         },
