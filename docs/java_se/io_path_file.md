@@ -88,39 +88,39 @@ System.out.printf("当前工作目录路径: Path.of("").toAbsolutePath() -> %s,
 
 `java.nio.file.Files` 类提供了大量用于操作文件系统的方法，如创建、删除、移动、复制、读取和写入文件，以及检查文件属性。以下是日常开发中最常用的方法归纳：
 
-| 操作分类  | 核心方法                                      | 功能描述                                                      |
-| :-------- | :-------------------------------------------- | :------------------------------------------------------------ |
-| 创建目录  | `Files.createDirectory(Path)`                 | 创建单级目录（父目录不存在会抛异常）                          |
-|           | `Files.createDirectories(Path)`               | 创建多级目录（自动创建不存在的父目录，推荐）                  |
-| 创建文件  | `Files.createFile(Path)`                      | 创建一个新的空文件                                            |
-| 读取/查询 | `Files.exists(Path)`                          | 判断文件或目录是否存在                                        |
-|           | `Files.isRegularFile(Path)`                   | 判断是否为普通文件                                            |
-|           | `Files.isDirectory(Path)`                     | 判断是否为目录                                                |
-|           | `Files.isSymbolicLink(Path)`                  | 判断是否为符号链接                                            |
-|           | `Files.isHidden(Path)`                        | 判断文件是否为隐藏文件                                        |
-|           | `Files.isReadable`                            | 判断文件是否可读                                              |
-|           | `Files.isWritable`                            | 判断文件是否可写                                              |
-|           | `Files.isExecutable`                          | 判断文件是否可执行                                            |
-|           | `Files.readAllBytes(Path)`                    | 读取文件的所有字节（适合小文件）                              |
-|           | `Files.readAllLines(Path)`                    | 读取文件的所有行，返回 List<String>                           |
-|           | `Files.readString(path)`                      | 读取文件全部内容为字符串 (Java 11+) 极简读取小文件            |
-|           | `Files.size(Path)`                            | 获取文件的大小（字节数）                                      |
-|           | `Files.list(Path)`                            | 遍历当前目录下的直接子文件或子目录（非递归）                  |
-|           | `Files.walk(Path)`                            | 递归遍历目录树，返回 Stream<Path>                             |
-| 写入/修改 | `Files.write(Path, byte[])`                   | 将字节数组写入文件（可配合 StandardOpenOption 控制写入方式）  |
-|           | `Files.writeString(path, str)`                | 将字符串写入文件 (Java 11+) 极简写入小文件                    |
-|           | `Files.copy(src, dest, opts)`                 | 复制文件（可通过 `StandardCopyOption.REPLACE_EXISTING` 覆盖） |
-|           | `Files.move(src, dest, opts)`                 | 移动或重命名文件（支持原子移动）                              |
-| 删除      | `Files.delete(Path)`                          | 删除文件或目录（目录非空或文件不存在时会抛异常）              |
-|           | `Files.deleteIfExists(Path)`                  | 如果文件存在则删除，不存在时不抛异常（更安全）                |
-| 流相关    | `Files.newInputStream(path)`                  |                                                               |
-|           | `Files.newOutputStream(path`                  |                                                               |
-|           | `Files.newBufferedReader(path, charset)`      |                                                               |
-|           | `Files.newBufferedWriter(path, charset)`      |                                                               |
-| 文件属性  | `java.nio.file.attribute.BasicFileAttributes` | `Files.readAttributes(path, BasicFileAttributes.class);`      |
-|           | `FileTime createTime()`                       | 文件创建时间                                                  |
-|           | `FileTime lastAccessTime()`                   | 文件最近访问时间                                              |
-|           | `FileTime lastModifiedTime()`                 | 文件最近修改时间                                              |
+| 操作分类  | 核心方法                                      | 功能描述                                                     |
+| :-------- | :-------------------------------------------- | :----------------------------------------------------------- |
+| 创建目录  | `Files.createDirectory(Path)`                 | 创建单级目录（父目录不存在会抛异常）                         |
+|           | `Files.createDirectories(Path)`               | 创建多级目录（自动创建不存在的父目录，推荐）                 |
+| 创建文件  | `Files.createFile(Path)`                      | 创建一个新的空文件                                           |
+| 读取/查询 | `Files.exists(Path)`                          | 判断文件或目录是否存在                                       |
+|           | `Files.isRegularFile(Path)`                   | 判断是否为普通文件                                           |
+|           | `Files.isDirectory(Path)`                     | 判断是否为目录                                               |
+|           | `Files.isSymbolicLink(Path)`                  | 判断是否为符号链接                                           |
+|           | `Files.isHidden(Path)`                        | 判断文件是否为隐藏文件                                       |
+|           | `Files.isReadable`                            | 判断文件是否可读                                             |
+|           | `Files.isWritable`                            | 判断文件是否可写                                             |
+|           | `Files.isExecutable`                          | 判断文件是否可执行                                           |
+|           | `Files.readAllBytes(Path)`                    | 读取文件的所有字节（适合小文件）                             |
+|           | `Files.readAllLines(Path)`                    | 读取文件的所有行，返回 `List<String>`                        |
+|           | `Files.readString(path)`                      | 读取文件全部内容为字符串 (Java 11+) 极简读取小文件           |
+|           | `Files.size(Path)`                            | 获取文件的大小（字节数）                                     |
+|           | `Files.list(Path)`                            | 遍历当前目录下的直接子文件或子目录（非递归）                 |
+|           | `Files.walk(Path)`                            | 递归遍历目录树，返回 `Stream<Path>`                          |
+| 写入/修改 | `Files.write(Path, byte[])`                   | 将字节数组写入文件（可配合 StandardOpenOption 控制写入方式） |
+|           | `Files.writeString(path, str)`                | 将字符串写入文件 (Java 11+) 极简写入小文件                   |
+|           | `Files.copy(src, dest, opts)`                 | 复制文件（可通过 StandardCopyOption.REPLACE_EXISTING 覆盖）  |
+|           | `Files.move(src, dest, opts)`                 | 移动或重命名文件（支持原子移动）                             |
+| 删除      | `Files.delete(Path)`                          | 删除文件或目录（目录非空或文件不存在时会抛异常）             |
+|           | `Files.deleteIfExists(Path)`                  | 如果文件存在则删除，不存在时不抛异常（更安全）               |
+| 流相关    | `Files.newInputStream(path)`                  |                                                              |
+|           | `Files.newOutputStream(path`                  |                                                              |
+|           | `Files.newBufferedReader(path, charset)`      |                                                              |
+|           | `Files.newBufferedWriter(path, charset)`      |                                                              |
+| 文件属性  | `java.nio.file.attribute.BasicFileAttributes` | `Files.readAttributes(path, BasicFileAttributes.class)`      |
+|           | `FileTime createTime()`                       | 文件创建时间                                                 |
+|           | `FileTime lastAccessTime()`                   | 文件最近访问时间                                             |
+|           | `FileTime lastModifiedTime()`                 | 文件最近修改时间                                             |
 
 > 在进行目录遍历时，Files.list() 和 Files.walk() 返回的是 Stream，在使用完毕后底层的目录句柄会自动关闭（推荐使用 try-with-resources 语法）。
 
