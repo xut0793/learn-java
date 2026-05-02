@@ -276,6 +276,94 @@ export default defineConfig({
           ],
         },
         {
+          text: "I/O 操作",
+          items: [
+            {
+              text: "输入输出",
+              link: "/java_se/io_input_output_err_scanner.md",
+            },
+            {
+              text: "IO流",
+              link: "/java_se/io_stream.md",
+            },
+            {
+              text: "路径和文件",
+              link: "/java_se/io_path_file.md",
+            },
+          ],
+        },
+        {
+          text: "高并发编程",
+          items: [
+            {
+              text: "概念",
+              link: "/java_se/concurrency_index.md",
+            },
+            {
+              text: "演进历史",
+              link: "/java_se/concurrency_history.md",
+            },
+            {
+              text: "进程",
+              link: "/java_se/concurrency_process.md",
+            },
+            {
+              text: "线程",
+              link: "/java_se/concurrency_thread.md",
+            },
+            {
+              text: "异步编程",
+              link: "/java_se/concurrency_future.md",
+            },
+          ],
+        },
+        {
+          text: "网络编程",
+          items: [
+            {
+              text: "互联网历史",
+              link: "/java_se/network_index.md",
+            },
+            {
+              text: "IP/DNS",
+              link: "/java_se/network_ip_dns.md",
+            },
+            {
+              text: "UDP/TCP",
+              link: "/java_se/network_udp_tcp.md",
+            },
+            {
+              text: "web历史和网关协议",
+              link: "/java_se/network_web_cgi_servlet.md",
+            },
+            {
+              text: "URI/URL",
+              link: "/java_se/network_url.md",
+            },
+            {
+              text: "HTTP协议",
+              link: "/java_se/network_http.md",
+            },
+            {
+              text: "HTTP实现",
+              link: "/java_se/network_http_java.md",
+            },
+          ],
+        },
+        {
+          text: "数据持久化",
+          items: [
+            {
+              text: "演进历史",
+              link: "/java_se/persistent_storage.md",
+            },
+            {
+              text: "jdbc/orm/jpa",
+              link: "/java_se/persistent_storage_jdbc_orm_jpa.md",
+            },
+          ],
+        },
+        {
           text: "工程化",
           items: [
             {
